@@ -5,7 +5,7 @@ var route_upload = require('./router/route_upload.js')
 
 var app = express()
 app.use(cors())
-app.use('/images', express.static('images'));
+app.use('/file', express.static('images'));
 app.use(route_mysql)
 app.use(route_upload)
 

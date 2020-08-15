@@ -7,7 +7,7 @@ router.use(express.json())
 router.use(cors())
 router.use(upload())
 
-router.post("/images", function(req,res){
+router.post("/file", function(req,res){
     // console.log(req)
     if(req.files){
         console.log(req.files)
@@ -21,7 +21,7 @@ router.post("/images", function(req,res){
             else{
                 res.send({
                     status: 'ok',
-                    fotoTerupload: `http://localhost:1234/images/${filename}`
+                    fotoTerupload: `http://localhost:1234/file/${filename}`
                 });
             }
         })
