@@ -1,6 +1,6 @@
 
 <img width="50%" src="./../images/unafeed_logo.png"/>
-<br><br>
+<br>
 <img width="50%" src="./../images/garuda_logo2.png"/>
 
 # Unafeed Frontend
